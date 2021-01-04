@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+body{
+    background-color:#E1332D;
+}
+
+/* Parent Buttons  */
+.parent{
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+    width: 400px;
+}
+
+/* Styled Buttons */
+button{
+    width:100px;
+    height:50px;
+    border:none;
+    margin:10px;
+    background-color: #DB2322;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    border:2px solid aliceblue;
+    outline: none;
+    color:aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+button:hover{
+    box-shadow: 5px 5px 50px #DB2322;
+     border:2px solid transparent;
+}
+h1,p{
+    margin-top: 100px;
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+   font-size: 50px;
+}
+
+p{
+    margin-top: 30px;
+}
